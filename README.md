@@ -1,16 +1,42 @@
-# React + Vite
+# Velier.dev - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Velier.Dev is a personal developer portfolio website built with React.
+It showcases projects, skills, and contact information in a clean, modern, and responsive interface.
 
-Currently, two official plugins are available:
+### This project serves both as:
+* A public-facing portfolio
+* A sandbox for experimenting with modern front-end tooling and best practices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🚀 Tech Stack
+* React – Component-based UI library
+* Vite - Modern JS based build too.
+* JavaScript (ES6+)
+* Tailwind CSS – Utility-first styling
+* PostCSS – CSS processing
+* Node.js / npm – Package management & tooling
 
-## React Compiler
+### 🛠️ Getting Started (Prerequisites)
+* Node.js (v18 or v20 recommended)
+* npm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation
+```
+git clone https://github.com/Loganv308/portfolio-website.git
+cd portfolio-website
+npm install
+```
 
-## Expanding the ESLint configuration
+### Run the Development Server
+```
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### App Will be available at:
+```
+http://localhost:5173
+```
+
+### 📦 Build for Production
+```
+npm run build
+```
